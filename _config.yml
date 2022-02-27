@@ -26,9 +26,10 @@ description              : &description "nothing to decide"
 email: tezsong@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Startup
-baseurl: "value-creator" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  tezsong
+github: [metadata]
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -49,6 +50,7 @@ include:
 exclude:
   - 1build.sh
   - 2serve.sh
+  - 3deploy.sh
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
